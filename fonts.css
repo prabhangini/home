@@ -1,0 +1,59 @@
+/* fonts.css */
+
+@font-face {
+  font-family: 'product-sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Product Sans Regular.ttf') format('truetype');
+}
+
+/* Jost Regular */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Jost-VariableFont_wght.ttf') format('truetype');
+}
+
+/* @font-face {
+  font-family: 'Futura Md Bt';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/futuramdbt_bold.otf') format('truetype');
+} */
+
+@font-face {
+  font-family: 'Jost-300';
+  font-style: normal;
+  font-weight: 380;
+  src: url('./fonts/Jost-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost-light-300';
+  font-style: regular;
+  font-weight: 300;
+  src: url('./fonts/Jost-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost-bold';
+  font-style: regular;
+  font-weight: 500;
+  src: url('./fonts/Jost-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Jost-SemiBold';
+  font-style: regular;
+  font-weight: 300;
+  src: url('./fonts/Jost-SemiBold.ttf') format('truetype');
+}
+
+/* Jost Regular */
+@font-face {
+  font-family: 'PalanquinDark';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/PalanquinDark-Regular.ttf') format('truetype');
+}
