@@ -6,7 +6,7 @@
   "homepage": "https://prabhangini.github.io/home/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && gh-pages -d dist",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
