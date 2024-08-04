@@ -26,7 +26,7 @@ export default () => {
                         <CardActions>
                             <Button size="small">Share</Button>
                             <Button size="small">
-                                <Link href="/arrivalease" underline="none">
+                                <Link href="#/arrivalease" underline="none">
                                     Learn More
                                 </Link></Button>
                         </CardActions>
@@ -49,7 +49,7 @@ export default () => {
                         <CardActions>
                             <Button size="small">Share</Button>
                             <Button size="small">
-                                <Link href="/airwise" underline="none">
+                                <Link href="#/airwise" underline="none">
                                     Learn More
                                 </Link></Button>
                         </CardActions>
@@ -72,7 +72,7 @@ export default () => {
                         <CardActions>
                             <Button size="small">Share</Button>
                             <Button size="small">
-                                <Link href="/sapt" underline="none">
+                                <Link href="#/sapt" underline="none">
                                     Learn More
                                 </Link></Button>
                         </CardActions>

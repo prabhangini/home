@@ -49,7 +49,7 @@ const Header = () => {
                 HOME
               </Typography>
             </Link>
-            <Link href="/design" underline="none" onClick={() => handleLinkClick(1)} >
+            <Link href="#/design" underline="none" onClick={() => handleLinkClick(1)} >
               <Typography 
                 color='black' 
                 fontFamily='Jost' 
@@ -64,7 +64,7 @@ const Header = () => {
                 UI/ UX
               </Typography>
             </Link>
-            <Link href="/skills" underline="none" onClick={() => handleLinkClick(3)} >
+            <Link href="#/skills" underline="none" onClick={() => handleLinkClick(3)} >
               <Typography 
                 color='black' 
                 fontFamily='Jost' 
@@ -79,7 +79,7 @@ const Header = () => {
                 SKILLS
               </Typography>
             </Link>
-            <Link href="/about" underline="none" onClick={() => handleLinkClick(4)} >
+            <Link href="#/about" underline="none" onClick={() => handleLinkClick(4)} >
               <Typography 
                 color='black' 
                 fontFamily='Jost' 
