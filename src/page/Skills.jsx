@@ -4,9 +4,9 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 const images = [
-    '../1.png',
-    '../2.png',
-    '../3.png'
+    './1.png',
+    './2.png',
+    './3.png'
 ];
 
 const CarouselContainer = styled('div')({

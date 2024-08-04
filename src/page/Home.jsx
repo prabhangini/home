@@ -46,25 +46,25 @@ export default () => {
 
     const tabContents = {
         one: {
-            images: ['../1.png', '../2.png', '../3.png'],
+            images: ['./1.png', './2.png', './3.png'],
             texts: ['Text for Image 1', 'Text for Image 2', 'Text for Image 3'],
-            moreImages: ['../1.png', '../2.png', '../3.png'],
+            moreImages: ['./1.png', './2.png', './3.png'],
             moreTexts: ['Text for Image 1', 'Text for Image 2', 'Text for Image 3'],
             links: ['https://example.com/13', 'https://example.com/14', 'https://example.com/15'],
             moreLinks: ['https://example.com/16', 'https://example.com/17', 'https://example.com/18']
         },
         two: {
-            images: ['../3.png', '../2.png', '../1.png'],
+            images: ['./3.png', './2.png', './1.png'],
             texts: ['Text for Image 1', 'Text for Image 2', 'Text for Image 3'],
-            moreImages: ['../1.png', '../2.png', '../3.png'],
+            moreImages: ['./1.png', './2.png', './3.png'],
             moreTexts: ['Text for Image 1', 'Text for Image 2', 'Text for Image 3'],
             links: ['https://example.com/13', 'https://example.com/14', 'https://example.com/15'],
             moreLinks: ['https://example.com/16', 'https://example.com/17', 'https://example.com/18']
         },
         three: {
-            images: ['../1.png', '../2.png', '../3.png'],
+            images: ['./1.png', './2.png', './3.png'],
             texts: ['Text for Image 1', 'Text for Image 2', 'Text for Image 3'],
-            moreImages: ['../1.png', '../2.png', '../3.png'],
+            moreImages: ['./1.png', './2.png', './3.png'],
             moreTexts: ['Text for Image 1', 'Text for Image 2', 'Text for Image 3'],
             links: ['https://example.com/13', 'https://example.com/14', 'https://example.com/15'],
             moreLinks: ['https://example.com/16', 'https://example.com/17', 'https://example.com/18']

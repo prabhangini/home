@@ -17,7 +17,7 @@ export default () => {
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={8}>
-                    <img src='/arrival-hero.svg' style={{ maxWidth: '100%' }} />
+                    <img src='./arrival-hero.svg' style={{ maxWidth: '100%' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -78,7 +78,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid>
 
-            <Box height={50} />
+            {/* <Box height={50} />
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2} />
@@ -86,7 +86,7 @@ export default () => {
                     <HorizontalTube noOfLeafsToBeRed={1} />
                 </Grid>
                 <Grid item md={2} />
-            </Grid>
+            </Grid> */}
 
 
             <Box height={140} />
@@ -145,8 +145,8 @@ export default () => {
                         their valuable feedback.
                     </Typography>
 
-                    <img src="/persona1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
-                    <img src="/persona2.svg" style={{ maxWidth: '100%', marginTop: '10px' }} />
+                    <img src="./persona1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./persona2.svg" style={{ maxWidth: '100%', marginTop: '10px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -164,7 +164,7 @@ export default () => {
                         and identify key areas for improvement.
                     </Typography>
 
-                    <img src="/ad.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./ad.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -177,7 +177,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid>
 
-            <Box height={50} />
+            {/* <Box height={50} />
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2} />
@@ -185,7 +185,7 @@ export default () => {
                     <HorizontalTube noOfLeafsToBeRed={3} />
                 </Grid>
                 <Grid item md={2} />
-            </Grid>
+            </Grid> */}
 
             <Box height={140} />
             <Grid container>
@@ -218,7 +218,7 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6}>
-                    <img src="/wf1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./wf1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -245,9 +245,9 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/lofi1.svg" style={{ width: '31%', marginTop: '15px' }} />
-                    <img src="/lofi2.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/lofi3.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./lofi1.svg" style={{ width: '31%', marginTop: '15px' }} />
+                    <img src="./lofi2.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./lofi3.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -257,8 +257,8 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/lofi4.svg" style={{ width: '31%', marginTop: '15px' }} />
-                    <img src="/lofi5.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./lofi4.svg" style={{ width: '31%', marginTop: '15px' }} />
+                    <img src="./lofi5.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -268,8 +268,8 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/lofi6.svg" style={{ width: '31%', marginTop: '15px' }} />
-                    <img src="/lofi7.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./lofi6.svg" style={{ width: '31%', marginTop: '15px' }} />
+                    <img src="./lofi7.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -290,10 +290,10 @@ export default () => {
                     <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> Hi-Fi Wireframes </Typography>
                 </Grid>
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/hifi1.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="/hifi2.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/hifi3.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="/hifi4.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./hifi1.svg" style={{ width: '23%', marginTop: '15px' }} />
+                    <img src="./hifi2.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./hifi3.svg" style={{ width: '23%', marginTop: '15px' }} />
+                    <img src="./hifi4.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -303,10 +303,10 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/hifi5.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="/hifi6.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/hifi7.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="/hifi8.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./hifi5.svg" style={{ width: '23%', marginTop: '15px' }} />
+                    <img src="./hifi6.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./hifi7.svg" style={{ width: '23%', marginTop: '15px' }} />
+                    <img src="./hifi8.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -329,9 +329,9 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/rd1.svg" style={{ width: '15%', marginTop: '15px' }} />
-                    <img src="/rd2.svg" style={{ width: '30%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/rd3.svg" style={{ width: '50%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./rd1.svg" style={{ width: '15%', marginTop: '15px' }} />
+                    <img src="./rd2.svg" style={{ width: '30%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./rd3.svg" style={{ width: '50%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -345,7 +345,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid>
 
-            <Box height={50} />
+            {/* <Box height={50} />
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2} />
@@ -353,37 +353,35 @@ export default () => {
                     <HorizontalTube noOfLeafsToBeRed={4} />
                 </Grid>
                 <Grid item md={2} />
-            </Grid>
+            </Grid> */}
 
-            <Box height={150} />
+            <Box height={50} />
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2}>
                     <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> Learnings and Future Scope </Typography>
                 </Grid>
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-
-                    <List sx={{ listStyleType: 'decimal' }}>
-                        <ListItem sx={{ display: 'list-item' }}>
+                <Grid item md={6}>
                             <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
+                                <ul>
+                                    <li>
                                 Conducted user experience research with a diverse group of 10 participants to gather qualitative data and
                                 valuable insights for the app. The prototype led to a 55% increase in newcomers' sense of preparedness
                                 for their settlement journey. 85% of users expressed a strong intent to use the platform, indicating a
                                 high demand for such a centralized tool among newcomers.
+                                </li>
+                                </ul>
                             </Typography>
-                        </ListItem>
-                        <ListItem sx={{ display: 'list-item' }}>
                             <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
+                            <ul>
+                            <li>
                                 Through a deep understanding of the needs and challenges faced by our target audience, I have successfully
                                 created a platform that skillfully addresses their concerns. Moreover, I have gained valuable insights into
                                 the hopes and struggles of immigrants and refugees, and how technology can greatly contribute to their
                                 integration and improve their settlement experiences.
+                                </li>
+                                </ul>
                             </Typography>
-                        </ListItem>
-
-
-
-                    </List>
                 </Grid>
                 <Grid item md={2} />
             </Grid>

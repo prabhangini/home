@@ -22,7 +22,7 @@ const Header = () => {
       <Grid container alignItems="center">
         <Grid item md={1} />
         <Grid item md={2} display="flex" justifyContent="center" alignItems="center">
-          <img src='../../logo.svg' alt='Logo' />
+          <img src='./logo.svg' alt='Logo' />
         </Grid>
         <Grid item md={2} />
         <Grid item md={6}>

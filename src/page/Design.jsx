@@ -12,7 +12,7 @@ export default () => {
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/public/Arrivalease.png"
+                            image="./Arrivalease.png"
                             title="green iguana"
                         />
                         <CardContent>
@@ -35,7 +35,7 @@ export default () => {
                     <Card sx={{ maxWidth: 345, ml: '25px' }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/public/airwise.png"
+                            image="./airwise.png"
                             title="green iguana"
                         />
                         <CardContent>
@@ -58,7 +58,7 @@ export default () => {
                     <Card sx={{ maxWidth: 345, ml: '25px' }}>
                         <CardMedia
                             sx={{ height: 140 }}
-                            image="/public/airwise.png"
+                            image="./airwise.png"
                             title="Sapt Solutions"
                         />
                         <CardContent>

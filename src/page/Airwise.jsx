@@ -20,7 +20,7 @@ export default () => {
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={8}>
-                    <img src='/airwise.png' style={{ maxWidth: '100%' }} />
+                    <img src='./airwise.png' style={{ maxWidth: '100%' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -50,19 +50,19 @@ export default () => {
                 </Grid>
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
                     <Box textAlign={'center'}>
-                        <img src='/airwise/p1.svg' />
+                        <img src='./airwise/p1.svg' />
                         <Typography fontFamily={'Jost-300'} fontSize={14} color={'#414141'} lineHeight={2} mt={0.5}>
                             Struggle in Getting Directions at the Airport
                         </Typography>
                     </Box>
                     <Box ml={3} textAlign={'center'}>
-                        <img src='/airwise/p2.svg' />
+                        <img src='./airwise/p2.svg' />
                         <Typography fontFamily={'Jost-300'} fontSize={14} color={'#414141'} lineHeight={2} mt={0.5}>
                             Difficulty to know the Accurate Flight Status
                         </Typography>
                     </Box>
                     <Box ml={3} textAlign={'center'}>
-                        <img src='/airwise/p3.svg' />
+                        <img src='./airwise/p3.svg' />
                         <Typography fontFamily={'Jost-300'} fontSize={14} color={'#414141'} lineHeight={2}>
                             Challenges in finding assistance for different users
                         </Typography>
@@ -110,7 +110,7 @@ export default () => {
             </Grid>
 
             <Box height={50} />
-            <Grid container>
+            {/* <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6}>
@@ -120,7 +120,7 @@ export default () => {
             </Grid>
 
 
-            <Box height={140} />
+            <Box height={140} /> */}
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2}>
@@ -170,8 +170,8 @@ export default () => {
                         and recorded their valuable feedback.
                     </Typography>
 
-                    <img src="/airwise/persona1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
-                    <img src="/airwise/persona2.svg" style={{ maxWidth: '100%', marginTop: '10px' }} />
+                    <img src="./airwise/persona1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./airwise/persona2.svg" style={{ maxWidth: '100%', marginTop: '10px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -186,7 +186,7 @@ export default () => {
             </Grid>
 
             <Box height={30} />
-            <Grid container>
+            {/* <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6}>
@@ -195,7 +195,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid>
 
-            <Box height={140} />
+            <Box height={140} /> */}
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2}>
@@ -208,7 +208,7 @@ export default () => {
                         the user.
                     </Typography>
 
-                    <img src="/airwise/ia1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./airwise/ia1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -240,14 +240,14 @@ export default () => {
                     </Typography>
 
 
-                    <img src="/airwise/uf1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./airwise/uf1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
 
                     <Typography fontFamily={'Jost-SemiBold'} fontSize={20} textAlign={'justify'} color={'#414141'} lineHeight={2}>
                         To know Flight Status
                     </Typography>
 
 
-                    <img src="/airwise/uf2.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./airwise/uf2.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -261,7 +261,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid>
             <Box height={50} />
-            <Grid container>
+            {/* <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6}>
@@ -270,7 +270,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid>
 
-            <Box height={140} />
+            <Box height={140} /> */}
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2}>
@@ -302,7 +302,7 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6}>
-                    <img src="/airwise/wf1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
+                    <img src="./airwise/wf1.svg" style={{ maxWidth: '100%', marginTop: '15px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -331,11 +331,11 @@ export default () => {
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
                     <Box>
                         <Typography fontFamily={'Jost-SemiBold'} fontSize={20}> Flight Information</Typography>
-                        <img src="/airwise/lf1.svg" style={{ width: '100%', marginTop: '15px' }} />
+                        <img src="./airwise/lf1.svg" style={{ width: '100%', marginTop: '15px' }} />
                     </Box>
                     <Box ml={3}>
                         <Typography fontFamily={'Jost-SemiBold'} fontSize={20}> General Boarding Pass </Typography>
-                        <img src="/airwise/lf2.svg" style={{ width: '100%', marginTop: '15px' }} />
+                        <img src="./airwise/lf2.svg" style={{ width: '100%', marginTop: '15px' }} />
                     </Box>
                 </Grid>
                 <Grid item md={2} />
@@ -348,11 +348,11 @@ export default () => {
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
                     <Box>
                         <Typography fontFamily={'Jost-SemiBold'} fontSize={20}> Airport Procedure </Typography>
-                        <img src="/airwise/lf3.svg" style={{ width: '100%', marginTop: '15px' }} />
+                        <img src="./airwise/lf3.svg" style={{ width: '100%', marginTop: '15px' }} />
                     </Box>
                     <Box ml={6}>
                         <Typography fontFamily={'Jost-SemiBold'} fontSize={20}> Directions at Airport  </Typography>
-                        <img src="/airwise/lf4.svg" style={{ width: '100%', marginTop: '15px' }} />
+                        <img src="./airwise/lf4.svg" style={{ width: '100%', marginTop: '15px' }} />
                     </Box>
                 </Grid>
                 <Grid item md={2} />
@@ -374,10 +374,10 @@ export default () => {
                     <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> Hi-Fi Wireframes </Typography>
                 </Grid>
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/airwise/hifi1.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="/airwise/hifi2.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/airwise/hifi3.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/airwise/hifi4.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./airwise/hifi1.svg" style={{ width: '23%', marginTop: '15px' }} />
+                    <img src="./airwise/hifi2.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./airwise/hifi3.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./airwise/hifi4.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -387,10 +387,10 @@ export default () => {
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="/airwise/hifi5.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="/airwise/hifi6.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/airwise/hifi7.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="/airwise/hifi8.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./airwise/hifi5.svg" style={{ width: '23%', marginTop: '15px' }} />
+                    <img src="./airwise/hifi6.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./airwise/hifi7.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
+                    <img src="./airwise/hifi8.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -489,7 +489,7 @@ export default () => {
             </Grid>
 
             <Box height={50} />
-            <Grid container>
+            {/* <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2} />
                 <Grid item md={6}>
@@ -498,7 +498,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid>
 
-            <Box height={150} />
+            <Box height={150} /> */}
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2}>
@@ -507,13 +507,12 @@ export default () => {
                 <Grid item md={6} display={'flex'} flexDirection={'column'}>
                     <Container maxWidth="md">
                         <ReactPlayer
-                            url="/airwise/AirWise.mp4"
+                            url="./airwise/AirWise.mp4"
                             width="100%"
                             controls
                         />
                     </Container>
                     <Box p={2} ml={1}>
-
                         <Link href="https://www.figma.com/proto/kJ1XYtSlfaA1sSkyahT2WJ/Brainstation_Airport-App?type=design&node-id=5830-447&t=6Bm5axVfUKWVZT5F-1&scaling=scale-down&page-id=5800:56&starting-point-node-id=5830:447&mode=design" 
                         underline="none">
                             Check out Figma Prototype

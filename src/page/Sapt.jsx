@@ -47,7 +47,7 @@ export default () => {
                     </Typography>
                 </Grid>
                 <Grid item md={5}>
-                    <img src='/arrival-hero.svg' style={{ maxWidth: '100%' }} />
+                    <img src='./arrival-hero.svg' style={{ maxWidth: '100%' }} />
                 </Grid>
                 <Grid item md={2} />
             </Grid>
@@ -92,7 +92,7 @@ export default () => {
                 </Grid>
                 <Grid item md={1} />
                 <Grid item md={2} sx={{ backgroundColor: '#FFFFFF', padding: '10px' }}>
-                    <img src='/Sapt/challenges.png' style={{ maxWidth: '100%' }} />
+                    <img src='./Sapt/challenges.png' style={{ maxWidth: '100%' }} />
                 </Grid>
                 <Grid item md={4} sx={{ backgroundColor: '#E0E0E0', ml: 2, pr: 5 }}>
                     <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
@@ -136,7 +136,7 @@ export default () => {
                         </Typography>
                     </Typography>
                     <Grid item md={12} sx={{ textAlign: 'center', mt: 1 }}>
-                        <img src='/Sapt/research.png' style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                        <img src='./Sapt/research.png' style={{ maxWidth: '100%', maxHeight: '100%' }} />
                     </Grid>
 
                     <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2} mt={1}>
@@ -147,7 +147,7 @@ export default () => {
                     </Typography>
 
                     <Grid item md={12} sx={{ textAlign: 'center', mt: 1 }}>
-                        <img src='/Sapt/research.png' style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                        <img src='./Sapt/research.png' style={{ maxWidth: '100%', maxHeight: '100%' }} />
                     </Grid>
 
                 </Grid>
@@ -177,7 +177,7 @@ export default () => {
                         Competitive Analysis:
                     </Typography>
                     <Grid item md={12} sx={{ textAlign: 'center', mt: 1 }}>
-                        <img src='/Sapt/comp_analysis.png' style={{ maxWidth: '100%' }} />
+                        <img src='./Sapt/comp_analysis.png' style={{ maxWidth: '100%' }} />
                     </Grid>
 
                     <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2} mt={1}>
@@ -213,7 +213,7 @@ export default () => {
                     </TableContainer>
 
                     <Grid item md={12} sx={{ textAlign: 'center', mt: 2 }}>
-                        <img src='/Sapt/chart.png' style={{ maxWidth: '100%' }} />
+                        <img src='./Sapt/chart.png' style={{ maxWidth: '100%' }} />
                     </Grid>
 
                 </Grid>
@@ -230,7 +230,7 @@ export default () => {
                 <Grid item md={1} />
                 <Grid item md={6}>
                     <Grid item md={12} sx={{ textAlign: 'center', mt: 1 }}>
-                        <img src='/Sapt/obstacle.png' style={{ maxWidth: '100%' }} />
+                        <img src='./Sapt/obstacle.png' style={{ maxWidth: '100%' }} />
                     </Grid>
 
                     <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2} mt={1}>
@@ -335,7 +335,7 @@ export default () => {
                 <Grid item md={1} />
                 <Grid item md={6}>
                     <Grid item md={12} sx={{ textAlign: 'center', mt: 1 }}>
-                        <img src='/Sapt/research.png' style={{ maxWidth: '100%', maxHeight: '100%' }} />
+                        <img src='./Sapt/research.png' style={{ maxWidth: '100%', maxHeight: '100%' }} />
                     </Grid>
 
                     <Typography fontFamily={'Jost-bold'} fontSize={20} textAlign={'justify'} color={'#414141'} lineHeight={2}>
@@ -364,7 +364,7 @@ export default () => {
                 </Grid>
                 <Grid item md={1} />
                 <Grid item md={2}>
-                <img src='/Sapt/learning.png' style={{ maxWidth: '100%' }} />
+                <img src='./Sapt/learning.png' style={{ maxWidth: '100%' }} />
                 </Grid>
                 <Grid item md={4} sx={{ ml: 2, p: 2 }}>
                     <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
