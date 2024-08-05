@@ -22,7 +22,7 @@ const Header = () => {
       <Grid container alignItems="center" justifyContent="space-between">
       <Grid item xs={1} md={1} display="flex" alignItems="center"/>
         <Grid item xs={7} md={7} >
-          <Link href="/" underline="none">
+          <Link href="#/" underline="none">
             <img src='./logo.svg' alt='Logo' />
           </Link>
         </Grid>
