@@ -90,7 +90,7 @@ export default () => {
             </Grid> */}
 
 
-            <Box height={140} />
+            <Box height={50} />
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2}>
@@ -188,7 +188,7 @@ export default () => {
                 <Grid item md={2} />
             </Grid> */}
 
-            <Box height={140} />
+            <Box height={50} />
             <Grid container>
                 <Grid item md={2} />
                 <Grid item md={2}>

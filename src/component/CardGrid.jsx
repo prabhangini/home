@@ -7,14 +7,13 @@ import './CardGrid.css';
 const Card = ({ imageSrc, link, text }) => {
   return (
     <div className="card">
-      <div className="card__img">
-        <a href={link} target="_blank" rel="noopener noreferrer">
-          <Box component="img" src={imageSrc} sx={{ width: '100%', borderRadius: 1 }} />
-        </a>
+      <a href={link} rel="noopener noreferrer">
+      <div className="card__img-container">
+      <img src={imageSrc} alt={text} className="card__img" />
       </div>
-      <div className="card__subtitle">{text}</div>
+      {/* <div className="card__subtitle">{text}</div> */}
       <div className="card__wrapper">
-        <div className="card__title">Project name</div>
+        <div className="card__title">{text}</div>
         <div className="card__icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" style={{ userSelect: 'none', width: '100%', height: '100%', display: 'inline-block', fill: 'rgb(224, 223, 220)', flexShrink: 0, cursor: 'auto' }} color="rgb(224, 223, 220)">
             <g color="rgb(224, 223, 220)">
@@ -26,6 +25,7 @@ const Card = ({ imageSrc, link, text }) => {
           </svg>
         </div>
       </div>
+      </a>
     </div>
   );
 };
