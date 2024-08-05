@@ -22,19 +22,21 @@ const Header = () => {
       <Grid container alignItems="center">
         <Grid item md={1} />
         <Grid item md={2} display="flex" justifyContent="center" alignItems="center">
+        <Link href="/" underline="none">
           <img src='./logo.svg' alt='Logo' />
+          </Link>
         </Grid>
         <Grid item md={2} />
         <Grid item md={6}>
           <List
             sx={{
               display: { xs: 'none', md: 'flex' },
-              justifyContent: 'space-between',
+              justifyContent: 'flex-end',
               alignItems: 'center',
               height: '100%',
             }}
           >
-            <Link href="/" underline="none" onClick={() => handleLinkClick(0)} >
+            {/* <Link href="/" underline="none" onClick={() => handleLinkClick(0)} >
               <Typography 
                 color='black' 
                 fontFamily='Jost' 
@@ -48,8 +50,8 @@ const Header = () => {
               >
                 HOME
               </Typography>
-            </Link>
-            <Link href="#/design" underline="none" onClick={() => handleLinkClick(1)} >
+            </Link> */}
+            {/* <Link href="#/design" underline="none" onClick={() => handleLinkClick(1)} >
               <Typography 
                 color='black' 
                 fontFamily='Jost' 
@@ -78,7 +80,7 @@ const Header = () => {
               >
                 SKILLS
               </Typography>
-            </Link>
+            </Link> */}
             <Link href="#/about" underline="none" onClick={() => handleLinkClick(4)} >
               <Typography 
                 color='black' 
