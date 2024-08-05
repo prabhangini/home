@@ -73,7 +73,7 @@ a {text-decoration: none; }
   .card__wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   
@@ -84,7 +84,8 @@ a {text-decoration: none; }
   .card__title {
     color: var(--main-color);
     font-weight: 900;
-    font-size: 25px;
+    font-size: 1rem;
+    margin-top: 10px;
   }
   
   .card__subtitle {

@@ -186,7 +186,7 @@ export default () => {
                             </Tabs>
                         </Box>
 
-                        <Box sx={{ padding: 2, maxWidth: '100%', overflowX: 'hidden' }}>
+                        <Box sx={{ pt: 2, maxWidth: '100%', overflowX: 'hidden', justifyContent: "center", alignItems: "center" }}>
                             <Fade in={activeTab === 'one'} timeout={500} key="one">
                                 <div>
                                     {activeTab === 'one' && <TabContent tabContent={tabContents.one} sx={{ maxWidth: '100%' }} />}
