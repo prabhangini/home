@@ -4,6 +4,7 @@ import Airplane from '../component/Airplane';
 import Square from '../component/Square';
 import Rectangle from '../component/Rectangle';
 import ReactPlayer from 'react-player';
+import React from 'react';
 export default () => {
     return (
         <>
