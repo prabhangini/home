@@ -51,11 +51,11 @@ const CardGrid = ({ images, links, texts, moreImages, moreLinks, moreTexts }) =>
     <Box spacing={20}>
       <Grid container spacing={2}>
         {showMore ? moreImages.map((src, index) => (
-          <Grid item xs={4} key={index}>
+          <Grid item xs={12} md={4} key={index}>
             <Card imageSrc={src} link={moreLinks[index]} text={moreTexts[index]} />
           </Grid>
         )) : images.slice(0, 3).map((src, index) => (
-          <Grid item xs={4} key={index}>
+          <Grid item xs={12} md={4} key={index}>
             <Card imageSrc={src} link={links[index]} text={texts[index]} />
           </Grid>
         ))}
@@ -63,7 +63,7 @@ const CardGrid = ({ images, links, texts, moreImages, moreLinks, moreTexts }) =>
       {showMore && (
         <Grid container spacing={2} sx={{ marginTop: 2 }} ref={moreSectionRef}>
           {moreImages.map((src, index) => (
-            <Grid item xs={4} key={index}>
+            <Grid item xs={12} md={4} key={index}>
               <Card imageSrc={src} link={moreLinks[index]} text={moreTexts[index]} />
             </Grid>
           ))}

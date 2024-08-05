@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Grid, List, Typography, Link, Box } from '@mui/material';
+import { Grid, List, Typography, Link, Box, useMediaQuery, useTheme } from '@mui/material';
 import './Header.css';
 
 const Header = () => {
-  // Retrieve active link index from localStorage, default to 4 if not present
   const initialActiveLink = parseInt(localStorage.getItem('activeLink'), 10) || 0;
   const [activeLink, setActiveLink] = useState(initialActiveLink);
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
-  // Update localStorage with the new active link index
   useEffect(() => {
     localStorage.setItem('activeLink', activeLink);
   }, [activeLink]);
@@ -19,68 +19,23 @@ const Header = () => {
   return (
     <>
       <Box height={30} />
-      <Grid container alignItems="center">
-        <Grid item md={1} />
-        <Grid item md={2} display="flex" justifyContent="center" alignItems="center">
-        <Link href="/" underline="none">
-          <img src='./logo.svg' alt='Logo' />
+      <Grid container alignItems="center" justifyContent="space-between">
+      <Grid item xs={1} md={1} display="flex" alignItems="center"/>
+        <Grid item xs={7} md={7} >
+          <Link href="/" underline="none">
+            <img src='./logo.svg' alt='Logo' />
           </Link>
         </Grid>
-        <Grid item md={2} />
-        <Grid item md={6}>
+        <Grid item xs={3} md={3}>
           <List
             sx={{
-              display: { xs: 'none', md: 'flex' },
+              display: 'flex',
+              flexDirection: isMobile ? 'column' : 'row',
               justifyContent: 'flex-end',
-              alignItems: 'center',
+              alignItems: isMobile ? 'flex-end' : 'center',
               height: '100%',
             }}
           >
-            {/* <Link href="/" underline="none" onClick={() => handleLinkClick(0)} >
-              <Typography 
-                color='black' 
-                fontFamily='Jost' 
-                fontSize={18} 
-                style={{ 
-                  color: activeLink === 0 ? '#B70909' : 'black',
-                  display: 'flex',
-                  alignItems: 'center',
-                  height: '100%'
-                }}
-              >
-                HOME
-              </Typography>
-            </Link> */}
-            {/* <Link href="#/design" underline="none" onClick={() => handleLinkClick(1)} >
-              <Typography 
-                color='black' 
-                fontFamily='Jost' 
-                fontSize={18} 
-                style={{ 
-                  color: activeLink === 1 ? '#B70909' : 'black',
-                  display: 'flex',
-                  alignItems: 'center',
-                  height: '100%'
-                }}
-              >
-                UI/ UX
-              </Typography>
-            </Link>
-            <Link href="#/skills" underline="none" onClick={() => handleLinkClick(3)} >
-              <Typography 
-                color='black' 
-                fontFamily='Jost' 
-                fontSize={18} 
-                style={{ 
-                  color: activeLink === 3 ? '#B70909' : 'black',
-                  display: 'flex',
-                  alignItems: 'center',
-                  height: '100%'
-                }}
-              >
-                SKILLS
-              </Typography>
-            </Link> */}
             <Link href="#/about" underline="none" onClick={() => handleLinkClick(4)} >
               <Typography 
                 color='black' 
@@ -90,13 +45,16 @@ const Header = () => {
                   color: activeLink === 4 ? '#B70909' : 'black',
                   display: 'flex',
                   alignItems: 'center',
-                  height: '100%'
+                  height: '100%',
+                  padding: isMobile ? '10px 0' : '0 15px',
                 }}
               >
                 ABOUT ME
               </Typography>
             </Link>
           </List>
+        </Grid>
+        <Grid item xs={1} md={1}>
         </Grid>
       </Grid>
     </>
