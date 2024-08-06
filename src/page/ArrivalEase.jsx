@@ -242,37 +242,51 @@ export default () => {
             </Grid>
 
             <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2} />
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./lofi1.svg" style={{ width: '31%', marginTop: '15px' }} />
-                    <img src="./lofi2.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./lofi3.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
+            <Grid container spacing={4}>
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexWrap="wrap" justifyContent="space-between">
+                        <Box width={{ xs: '48%', sm: '31%' }} mb={2}>
+                            <img src="./lofi1.svg" style={{ width: '100%' }} alt="Lo-Fi Wireframe 1" />
+                        </Box>
+                        <Box width={{ xs: '48%', sm: '31%' }} mb={2}>
+                            <img src="./lofi2.svg" style={{ width: '100%' }} alt="Lo-Fi Wireframe 2" />
+                        </Box>
+                        <Box width={{ xs: '48%', sm: '31%' }} mb={2}>
+                            <img src="./lofi3.svg" style={{ width: '100%' }} alt="Lo-Fi Wireframe 3" />
+                        </Box>
+                    </Box>
                 </Grid>
-                <Grid item md={2} />
-            </Grid>
+                <Grid item xs={12} md={2} />
 
-            <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2} />
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./lofi4.svg" style={{ width: '31%', marginTop: '15px' }} />
-                    <img src="./lofi5.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexWrap="wrap" justifyContent="space-between">
+                        <Box width={{ xs: '48%', sm: '31%' }} mb={2} mr={{ xs: 0, sm: 2 }}>
+                            <img src="./lofi4.svg" style={{ width: '100%' }} alt="Lo-Fi Wireframe 4" />
+                        </Box>
+                        <Box width={{ xs: '48%', sm: '31%' }} mb={2}>
+                            <img src="./lofi5.svg" style={{ width: '100%' }} alt="Lo-Fi Wireframe 5" />
+                        </Box>
+                    </Box>
                 </Grid>
-                <Grid item md={2} />
-            </Grid>
+                <Grid item xs={12} md={2} />
 
-            <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2} />
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./lofi6.svg" style={{ width: '31%', marginTop: '15px' }} />
-                    <img src="./lofi7.svg" style={{ width: '31%', marginTop: '15px', marginLeft: '25px' }} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexWrap="wrap" justifyContent="space-between">
+                        <Box width={{ xs: '48%', sm: '31%' }} mb={2} mr={{ xs: 0, sm: 2 }}>
+                            <img src="./lofi6.svg" style={{ width: '100%' }} alt="Lo-Fi Wireframe 6" />
+                        </Box>
+                        <Box width={{ xs: '48%', sm: '31%' }} mb={2}>
+                            <img src="./lofi7.svg" style={{ width: '100%' }} alt="Lo-Fi Wireframe 7" />
+                        </Box>
+                    </Box>
                 </Grid>
-                <Grid item md={2} />
+                <Grid item xs={12} md={2} />
             </Grid>
 
             <Box height={30} />
@@ -285,56 +299,69 @@ export default () => {
             </Grid>
 
             <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2}>
-                    <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> Hi-Fi Wireframes </Typography>
-                </Grid>
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./hifi1.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="./hifi2.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./hifi3.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="./hifi4.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                </Grid>
-                <Grid item md={2} />
-            </Grid>
-
-            <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2} />
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./hifi5.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="./hifi6.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./hifi7.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="./hifi8.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                </Grid>
-                <Grid item md={2} />
-            </Grid>
-
-            <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2}>
-                    <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> Responsive Design </Typography>
-                </Grid>
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}> I have customized the designs
-                        to fulfil the specific requirements of each user, taking into account their device type and screen dimensions.
+            <Grid container spacing={4}>
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2}>
+                    <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'} gutterBottom>
+                        Hi-Fi Wireframes
                     </Typography>
                 </Grid>
-                <Grid item md={2} />
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexWrap="wrap" justifyContent="space-between">
+                        {['hifi1', 'hifi2', 'hifi3', 'hifi4'].map((img, index) => (
+                            <Box key={img} width={{ xs: '48%', sm: '23%' }} mb={2}>
+                                <img src={`./${img}.svg`} style={{ width: '100%' }} alt={`Hi-Fi Wireframe ${index + 1}`} />
+                            </Box>
+                        ))}
+                    </Box>
+                </Grid>
+                <Grid item xs={12} md={2} />
+
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexWrap="wrap" justifyContent="space-between">
+                        {['hifi5', 'hifi6', 'hifi7', 'hifi8'].map((img, index) => (
+                            <Box key={img} width={{ xs: '48%', sm: '23%' }} mb={2}>
+                                <img src={`./${img}.svg`} style={{ width: '100%' }} alt={`Hi-Fi Wireframe ${index + 5}`} />
+                            </Box>
+                        ))}
+                    </Box>
+                </Grid>
+                <Grid item xs={12} md={2} />
             </Grid>
 
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2} />
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./rd1.svg" style={{ width: '15%', marginTop: '15px' }} />
-                    <img src="./rd2.svg" style={{ width: '30%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./rd3.svg" style={{ width: '50%', marginTop: '15px', marginLeft: '25px' }} />
+            <Box height={30} />
+            <Grid container spacing={4}>
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2}>
+                    <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'} gutterBottom>
+                        Responsive Design
+                    </Typography>
                 </Grid>
-                <Grid item md={2} />
+                <Grid item xs={12} md={6}>
+                    <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
+                        I have customized the designs to fulfil the specific requirements of each user, taking into account their device type and screen dimensions.
+                    </Typography>
+                </Grid>
+                <Grid item xs={12} md={2} />
+
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexWrap="wrap" justifyContent="space-between" alignItems="center">
+                        <Box width={{ xs: '100%', sm: '15%' }} mb={{ xs: 2, sm: 0 }}>
+                            <img src="./rd1.svg" style={{ width: '100%' }} alt="Responsive Design 1" />
+                        </Box>
+                        <Box width={{ xs: '100%', sm: '30%' }} mb={{ xs: 2, sm: 0 }}>
+                            <img src="./rd2.svg" style={{ width: '100%' }} alt="Responsive Design 2" />
+                        </Box>
+                        <Box width={{ xs: '100%', sm: '50%' }}>
+                            <img src="./rd3.svg" style={{ width: '100%' }} alt="Responsive Design 3" />
+                        </Box>
+                    </Box>
+                </Grid>
+                <Grid item xs={12} md={2} />
             </Grid>
 
             <Box height={30} />
@@ -363,26 +390,26 @@ export default () => {
                     <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> Learnings and Future Scope </Typography>
                 </Grid>
                 <Grid item md={6}>
-                            <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
-                                <ul>
-                                    <li>
+                    <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
+                        <ul>
+                            <li>
                                 Conducted user experience research with a diverse group of 10 participants to gather qualitative data and
                                 valuable insights for the app. The prototype led to a 55% increase in newcomers' sense of preparedness
                                 for their settlement journey. 85% of users expressed a strong intent to use the platform, indicating a
                                 high demand for such a centralized tool among newcomers.
-                                </li>
-                                </ul>
-                            </Typography>
-                            <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
-                            <ul>
+                            </li>
+                        </ul>
+                    </Typography>
+                    <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2}>
+                        <ul>
                             <li>
                                 Through a deep understanding of the needs and challenges faced by our target audience, I have successfully
                                 created a platform that skillfully addresses their concerns. Moreover, I have gained valuable insights into
                                 the hopes and struggles of immigrants and refugees, and how technology can greatly contribute to their
                                 integration and improve their settlement experiences.
-                                </li>
-                                </ul>
-                            </Typography>
+                            </li>
+                        </ul>
+                    </Typography>
                 </Grid>
                 <Grid item md={2} />
             </Grid>

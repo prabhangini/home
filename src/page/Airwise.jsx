@@ -369,41 +369,62 @@ export default () => {
             </Grid>
 
             <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2}>
-                    <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> Hi-Fi Wireframes </Typography>
+            <Grid container spacing={2}>
+  <Grid item xs={12} md={2} />
+  <Grid item xs={12} md={2}>
+    <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'} gutterBottom>
+      Hi-Fi Wireframes
+    </Typography>
+  </Grid>
+  <Grid item xs={12} md={6}>
+    <Box display="flex" flexWrap="wrap" justifyContent="space-between">
+      <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+        <img src="./airwise/hifi1.svg" style={{ width: '100%' }} alt="Hi-Fi Wireframe 1" />
+      </Box>
+      <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+        <img src="./airwise/hifi2.svg" style={{ width: '100%' }} alt="Hi-Fi Wireframe 2" />
+      </Box>
+      <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+        <img src="./airwise/hifi3.svg" style={{ width: '100%' }} alt="Hi-Fi Wireframe 3" />
+      </Box>
+      <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+        <img src="./airwise/hifi4.svg" style={{ width: '100%' }} alt="Hi-Fi Wireframe 4" />
+      </Box>
+    </Box>
+  </Grid>
+  <Grid item xs={12} md={2} />
+</Grid>
+
+            <Box height={30} />
+            <Grid container spacing={2}>
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={6}>
+                    <Box display="flex" flexWrap="wrap" justifyContent="space-between">
+                        <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+                            <img src="./airwise/hifi5.svg" style={{ width: '100%' }} />
+                        </Box>
+                        <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+                            <img src="./airwise/hifi6.svg" style={{ width: '100%' }} />
+                        </Box>
+                        <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+                            <img src="./airwise/hifi7.svg" style={{ width: '100%' }} />
+                        </Box>
+                        <Box width={{ xs: '48%', sm: '23%' }} mb={2}>
+                            <img src="./airwise/hifi8.svg" style={{ width: '100%' }} />
+                        </Box>
+                    </Box>
                 </Grid>
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./airwise/hifi1.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="./airwise/hifi2.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./airwise/hifi3.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./airwise/hifi4.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                </Grid>
-                <Grid item md={2} />
+                <Grid item xs={12} md={2} />
             </Grid>
 
             <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2} />
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-                    <img src="./airwise/hifi5.svg" style={{ width: '23%', marginTop: '15px' }} />
-                    <img src="./airwise/hifi6.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./airwise/hifi7.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                    <img src="./airwise/hifi8.svg" style={{ width: '23%', marginTop: '15px', marginLeft: '25px' }} />
-                </Grid>
-                <Grid item md={2} />
-            </Grid>
-
-            <Box height={30} />
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={2}>
+            <Grid container spacing={2}>
+                <Grid item xs={12} md={2} />
+                <Grid item xs={12} md={2}>
                     <Typography fontFamily={'Jost-SemiBold'} fontSize={'20px'}> UI Design </Typography>
                 </Grid>
-                <Grid item md={6} display={'flex'} flexDirection={'row'}>
-
+                <Grid item xs={12} md={6}>
                     <TableContainer component={Paper}>
                         <Table>
                             <TableHead>
@@ -413,23 +434,13 @@ export default () => {
                                             Colors
                                         </Typography>
                                     </TableCell>
-                                    <TableCell >
-
-                                        <Box display={'flex'} flexDirection={'row'}>
-                                            <Box ml={5}>
-                                                <Square backgroundColor={'#366775'} />
-                                            </Box>
-                                            <Box ml={5}>
-                                                <Square backgroundColor={'#D66D50'} />
-                                            </Box>
-                                            <Box ml={5}>
-                                                <Square backgroundColor={'#CACACA'} />
-                                            </Box>
-                                            <Box ml={5}>
-                                                <Square backgroundColor={'#F0F0F0'} />
-                                            </Box>
+                                    <TableCell>
+                                        <Box display={'flex'} flexDirection={'row'} flexWrap={'wrap'} justifyContent={'space-around'}>
+                                            <Square backgroundColor={'#366775'} />
+                                            <Square backgroundColor={'#D66D50'} />
+                                            <Square backgroundColor={'#CACACA'} />
+                                            <Square backgroundColor={'#F0F0F0'} />
                                         </Box>
-
                                     </TableCell>
                                 </TableRow>
                             </TableHead>
@@ -438,10 +449,10 @@ export default () => {
                                     <TableCell>
                                         <Typography alignSelf={'center'} fontFamily={'Jost'}>
                                             Typography
-                                        </Typography></TableCell>
+                                        </Typography>
+                                    </TableCell>
                                     <TableCell>
-
-                                        <Box display={'flex'} flexDirection={'row'}>
+                                        <Box display={'flex'} flexDirection={'column'}>
                                             <Rectangle fontFamily={"DM Serif Display"} fontSize={32} fontsUsedWhere={"Header"} />
                                             <Rectangle fontFamily={"Futura Md BT"} fontSize={24} fontsUsedWhere={"Sub Header"} />
                                             <Rectangle fontFamily={"Futura Bk BT"} fontSize={14} fontsUsedWhere={"Body"} />
@@ -450,10 +461,10 @@ export default () => {
                                 </TableRow>
                                 <TableRow>
                                     <TableCell>
-                                        <Typography alignSelf={'center'} fontFamily={'Jost'}>Buttons
-                                        </Typography></TableCell>
+                                        <Typography alignSelf={'center'} fontFamily={'Jost'}>Buttons</Typography>
+                                    </TableCell>
                                     <TableCell>
-                                        <Box display={'flex'} flexDirection={'row'}>
+                                        <Box display={'flex'} flexDirection={'row'} flexWrap={'wrap'} gap={2}>
                                             <Button variant="contained" sx={{
                                                 backgroundColor: '#366775',
                                                 '&:hover': {
@@ -463,21 +474,21 @@ export default () => {
                                                 Button 1
                                             </Button>
                                             <Button variant="contained" sx={{
-                                                marginLeft: '10px', backgroundColor: "#D66D50", '&:hover': {
+                                                backgroundColor: "#D66D50",
+                                                '&:hover': {
                                                     backgroundColor: '#D66D50',
                                                 }
                                             }}>
                                                 Button 2
                                             </Button>
                                         </Box>
-
                                     </TableCell>
                                 </TableRow>
                             </TableBody>
                         </Table>
                     </TableContainer>
                 </Grid>
-                <Grid item md={2} />
+                <Grid item xs={12} md={2} />
             </Grid>
 
             <Box height={30} />
@@ -514,8 +525,8 @@ export default () => {
                         />
                     </Container>
                     <Box p={2} ml={1}>
-                        <Link href="https://www.figma.com/proto/kJ1XYtSlfaA1sSkyahT2WJ/Brainstation_Airport-App?type=design&node-id=5830-447&t=6Bm5axVfUKWVZT5F-1&scaling=scale-down&page-id=5800:56&starting-point-node-id=5830:447&mode=design" 
-                        underline="none">
+                        <Link href="https://www.figma.com/proto/kJ1XYtSlfaA1sSkyahT2WJ/Brainstation_Airport-App?type=design&node-id=5830-447&t=6Bm5axVfUKWVZT5F-1&scaling=scale-down&page-id=5800:56&starting-point-node-id=5830:447&mode=design"
+                            underline="none">
                             Check out Figma Prototype
                         </Link>
                     </Box>

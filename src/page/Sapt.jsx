@@ -167,59 +167,58 @@ export default () => {
 
             <Box height={50} />
 
-            <Grid container>
-                <Grid item md={2} />
-                <Grid item md={1}>
-                    <Typography fontFamily={'Jost-bold'} fontSize={22}> Research and Planning </Typography>
-                </Grid>
-                <Grid item md={1} />
-                <Grid item md={6}>
-                    <Typography fontFamily={'Jost-bold'} fontSize={18} textAlign={'justify'} color={'#414141'} lineHeight={2}>
-                        Competitive Analysis:
-                    </Typography>
-                    <Grid item md={12} sx={{ textAlign: 'center', mt: 1 }}>
-                        <img src='./Sapt/comp_analysis.png' style={{ maxWidth: '100%' }} />
-                    </Grid>
+            <Grid container spacing={4}>
+  <Grid item xs={12} md={2} />
+  <Grid item xs={12} md={1}>
+    <Typography fontFamily={'Jost-bold'} fontSize={22} gutterBottom>
+      Research and Planning
+    </Typography>
+  </Grid>
+  <Grid item xs={12} md={1} />
+  <Grid item xs={12} md={6}>
+    <Typography fontFamily={'Jost-bold'} fontSize={18} color={'#414141'} gutterBottom>
+      Competitive Analysis:
+    </Typography>
+    <Box mb={2}>
+      <img src='./Sapt/comp_analysis.png' style={{ width: '100%', height: 'auto' }} alt="Competitive Analysis" />
+    </Box>
 
-                    <Typography fontFamily={'Jost-300'} fontSize={14} textAlign={'justify'} color={'#414141'} lineHeight={2} mt={1}>
-                        These analyses of the websites of the agencies were very useful for the design of the Sapt Solutions website.
-                        Examining what the competition does well and where it really falls short, we designed for Sapt Solutions a balanced and competitive digital presence.
-                    </Typography>
+    <Typography fontFamily={'Jost-300'} fontSize={14} color={'#414141'} paragraph>
+      These analyses of the websites of the agencies were very useful for the design of the Sapt Solutions website.
+      Examining what the competition does well and where it really falls short, we designed for Sapt Solutions a balanced and competitive digital presence.
+    </Typography>
 
-                    <br />
+    <TableContainer component={Paper} sx={{ mb: 2 }}>
+      <Table aria-label="comparison table">
+        <TableHead>
+          <TableRow>
+            <TableCell>Criteria</TableCell>
+            <TableCell align="left" sx={{ backgroundColor: '#FFD700' }}>Agency A</TableCell>
+            <TableCell align="left" sx={{ backgroundColor: '#98FB98' }}>Agency B</TableCell>
+            <TableCell align="left" sx={{ backgroundColor: '#AFEEEE' }}>Agency C</TableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {rows.map((row) => (
+            <TableRow key={row.criteria}>
+              <TableCell component="th" scope="row">
+                {row.criteria}
+              </TableCell>
+              <TableCell align="left">{row.agencyA}</TableCell>
+              <TableCell align="left">{row.agencyB}</TableCell>
+              <TableCell align="left">{row.agencyC}</TableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
 
-                    <TableContainer component={Paper} >
-                        <Table sx={{ minWidth: 650 }} aria-label="comparison table">
-                            <TableHead>
-                                <TableRow>
-                                    <TableCell>Criteria</TableCell>
-                                    <TableCell align="left" sx={{ backgroundColor: '#FFD700' }}>Agency A</TableCell>
-                                    <TableCell align="left" sx={{ backgroundColor: '#98FB98' }}>Agency B</TableCell>
-                                    <TableCell align="left" sx={{ backgroundColor: '#AFEEEE' }}>Agency C</TableCell>
-                                </TableRow>
-                            </TableHead>
-                            <TableBody>
-                                {rows.map((row) => (
-                                    <TableRow key={row.criteria}>
-                                        <TableCell component="th" scope="row">
-                                            {row.criteria}
-                                        </TableCell>
-                                        <TableCell align="left">{row.agencyA}</TableCell>
-                                        <TableCell align="left">{row.agencyB}</TableCell>
-                                        <TableCell align="left">{row.agencyC}</TableCell>
-                                    </TableRow>
-                                ))}
-                            </TableBody>
-                        </Table>
-                    </TableContainer>
-
-                    <Grid item md={12} sx={{ textAlign: 'center', mt: 2 }}>
-                        <img src='./Sapt/chart.png' style={{ maxWidth: '100%' }} />
-                    </Grid>
-
-                </Grid>
-                <Grid item md={2} />
-            </Grid>
+    <Box>
+      <img src='./Sapt/chart.png' style={{ width: '100%', height: 'auto' }} alt="Chart" />
+    </Box>
+  </Grid>
+  <Grid item xs={12} md={2} />
+</Grid>
 
             <Box height={20}/>
 
